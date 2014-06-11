@@ -1,0 +1,11 @@
+- 
+  hosts: [192.168.1.1, 10.10.10.1, 192.168.1.214, 12.12.130.32]
+  command: "test.py"
+-
+  hosts: [1.1.1.1, 39.29.102.12, 192.168.1.4]
+  command: "ls -la" #"ping localhost"
+  #kill_bot: true
+  #run_once: true
+- 
+  default_entry: true
+  command: "ls -la"

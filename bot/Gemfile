@@ -1,0 +1,6 @@
+source 'http://rubygems.org'
+source 'http://gems.github.com'
+
+gem 'eventmachine'
+gem 'em-http-request'
+gem 'trollop'
